@@ -4,7 +4,16 @@
   .navbar{
     display: none !important;
   }
-
+  #nad{
+    position: fixed !important;
+    left:0;
+    top:0;
+    z-index: 11111111111111111111;
+    display: flex !important;
+  background-color: rgba(26, 26, 26, 0.992);
+    width: 95% ;
+    /* border: 2px solid red ; */
+  }
 
   .first-section {
     min-height: 60vh;
@@ -88,7 +97,7 @@
   }
   .five-section {
     width: 100%;
-    
+
   }
   .five-section .a-h2 {
     width: 100%;
@@ -210,8 +219,8 @@ display: none !important;
     z-index: 11111111111111111111;
     display: flex !important;
   background-color: rgba(26, 26, 26, 0.992);
-    width: 100% !important;
-    border: 2px solid red ;
+    width: 90% ;
+    /* border: 2px solid red ; */
   }
   .first-section-f1 {
     min-height: 50vh;

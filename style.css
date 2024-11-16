@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 #nad{
-  display: none;
+  display: none !important;
 }
 .fox{
   background-color: black;
